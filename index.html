@@ -1,14 +1,39 @@
 <!DOCTYPE html>
-
 <html>
 <head>
   <meta http-equiv="CONTENT-TYPE" content="text/html; charset=UTF-8">
   <title>I miss my baby so much</title>
   <style>
-  body {background-color: #f3baba;}
-  h1 {text-align: center; padding: 7px; border: solid; border-radius: 20px; color: #3dad3d; background-color: #f8ddc860; margin: 10px 5px 15px 5px; font-size: clamp(35px, 40vw, 45px); }
-  p {text-align: center; padding: 7px; font-size: clamp(14px, 17vw, 19px);}
-  .letter {border: solid; color: #3dad3d; background-color: #f8ddc860; margin: 5px;}
+  body {
+    background-color: #f3baba;
+    margin: 0;
+    padding: clamp(10px, 3vw, 20px);
+    box-sizing: border-box;
+  }
+  h1 {
+    text-align: center; 
+    /* clamp(min, preferred, max) */
+    padding: clamp(5px, 1.5vw, 15px); 
+    border: solid; 
+    border-radius: 20px; 
+    color: #3dad3d; 
+    background-color: #f8ddc860; 
+    margin: clamp(5px, 2vw, 15px) clamp(2px, 1vw, 5px) clamp(10px, 3vw, 20px) clamp(2px, 1vw, 5px);
+    font-size: clamp(1.8rem, 4vw, 2.5rem);
+  }
+  p {
+    text-align: center; 
+    padding: clamp(5px, 1.5vw, 10px); 
+    font-size: clamp(14px, 1.1rem + 0.5vw, 19px);
+    line-height: 1.5;
+  }
+  .letter {
+    border: solid; 
+    color: #3dad3d; 
+    background-color: #f8ddc860; 
+    margin: clamp(5px, 1.5vw, 15px);
+    padding: clamp(10px, 2vw, 20px);
+  }
   </style>
 </head>
 <body>
